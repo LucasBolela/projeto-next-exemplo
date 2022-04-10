@@ -17,6 +17,9 @@ export function Header() {
                     <Link href="/posts"> 
                         <a className={asPath == "/posts"? style.active: ''}> Posts </a>
                     </Link>
+                    <Link href="/times"> 
+                        <a className={asPath == "/times"? style.active: ''}> Times </a>
+                    </Link>
                 </nav>
             </div>
         </header>
