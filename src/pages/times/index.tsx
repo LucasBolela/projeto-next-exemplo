@@ -1,12 +1,11 @@
 import {GetServerSideProps} from 'next';
+import Link from 'next/link';
+import style from './styles.module.scss';
 
 interface Time { 
     id: string;
     nome: string;
-    cidade: string;
-    estado: string;
-    estadio: string;
-    capacidade: string;
+    logo: string;
 }
   
 interface Times { 
@@ -16,12 +15,22 @@ interface Times {
 export default function Times({times}: Times){
     return (
         <div>
-            <h1> Times do Brasileirão </h1>
-                <ul>
+            <h1 className={style.title} style={{paddingLeft: 30 + "%"}}> TIMES DO BRASILEIRÃO </h1>
+            
+            <div className={style.containerTimes}>
                 {times.map( time => (
-                    <li key={time.id}> Nome: {time.nome} -  Cidade: {time.cidade} - Estado: {time.estado} -  Estádio: {time.estadio} - Capacidade:{time.capacidade} </li>
+                    <div className={style.rowTime} key={time.id}>
+                        <img src={time.logo}
+                            alt={"Logo "+ time.nome}
+                            className={style.rowLogo}
+                            width="40px"
+                        />
+                        <Link href={`/times/`+time.id}>
+                            <a>{time.nome}</a>
+                        </Link>
+                    </div>
                 ))}
-            </ul>
+            </div>
         </div>
     )
 }

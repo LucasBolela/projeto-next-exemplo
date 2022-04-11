@@ -1,0 +1,134 @@
+.container {
+    height: 5rem;
+    border-bottom: 1px solid var(--white);
+}
+
+.containerTimes {
+    background-color: var(--dark-blue);
+    padding: 20px 0px 10px 30px;
+    margin-top: 3px;
+
+    .rowTime {
+        border-bottom: 1px solid var(--green);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        a {
+            color: var(--white);
+            font-size: 24px;
+            
+            &:hover {
+                color: var(--gray300);
+            }
+        }
+    }
+}
+
+.title {
+    display: inline;
+    padding-left: 40%;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 36px;
+    color: var(--dark-blue);
+    border-bottom: 3px solid var(--green);
+}
+
+.teamContent {
+    display: flex;
+    width: 80%;
+    background-color: #001959;
+    color: #38ff00;
+    margin: 30px 10%;
+    padding: 40px;
+    font-size: 24px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text {
+    min-width: 40%;
+
+    ul {
+        list-style: none;
+        color: white;
+        font-weight: bold;
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+
+        li {
+            border-bottom: 2px solid var(--green);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+
+            span {
+                font-weight: lighter;
+            }
+        }
+    }
+    img {
+        width: 200px;
+        border-radius: 0;
+        padding: 1px;
+        background-color: aliceblue;
+    }
+}
+
+.teamLogo {
+    width: 350px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.content {
+    max-width: 1120px;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 3.75rem;
+    }
+    
+    nav {
+        margin-left: 5rem;
+        height: 5rem;
+
+        a {
+            display: inline-block;
+            position: relative;
+            padding: 0 0.5rem;
+            height: 5rem;
+            line-height: 5rem;
+            color: var(--gray300);
+            transition: color 0.2s;
+
+            & + a {
+                margin-left: 2rem;
+            }
+            
+            &:hover {
+                color: var(--white);
+            }
+            
+            &.active {
+                color: var(--white);
+                font-weight: bold;
+            }
+                
+        }
+            
+    }
+
+}

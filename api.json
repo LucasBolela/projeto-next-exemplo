@@ -21,7 +21,9 @@
                "cidade": "Belo Horizonte",
                "estado": "MG",
                "estadio": "Independência",
-               "capacidade": 23018
+               "capacidade": 23018,
+               "logo": "https://4.bp.blogspot.com/-Dttc4ZpXpIA/WRRaOQq6ohI/AAAAAAABNPg/yrS-XoSYAC8Wa4SVbCk-M3o1MTnzxbr9QCLcB/s1600/am%25C3%25A9rica%2Bmg%2B1.png",
+               "imagemEstadio": "https://www.otempo.com.br/image/contentid/policy:1.2054671:1539554802/image.jpg?f=3x2&w=1200&$p$f$w=a9f248b"
           },
           {
                "id": 2,
@@ -29,7 +31,9 @@
                "cidade": "Curitiba",
                "estado": "PR",
                "estadio": "Arena da Baixada",
-               "capacidade": 42370
+               "capacidade": 42370,
+               "logo": "data:image/png;base64,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",
+               "imagemEstadio": "https://viajantesporopcao.com/wp-content/uploads/2018/11/arena-da-baixada-lotada-510x340.jpg"
           },
           {
                "id": 3,
@@ -37,7 +41,9 @@
                "cidade": "Goiânia",	
                "estado": "GO",
                "estadio": "Antônio Accioly",
-               "capacidade": 10501
+               "capacidade": 10501,
+               "logo": "https://www.campeonatobrasileiro.com.br/uploads/times/atletico-go.png",
+               "imagemEstadio": "https://esportegoiano.com.br/wp-content/uploads/2021/05/Est%C3%A1dio-Ant%C3%B4nio-Accioly-EG.jpg"
           },
           {
                "id": 4,
@@ -45,7 +51,9 @@
                "cidade": "Belo Horizonte",	
                "estado": "MG",
                "estadio": "Mineirão",
-               "capacidade": 61846
+               "capacidade": 61846,
+               "logo": "https://i0.wp.com/dreamleaguesoccer.com.br/wp-content/uploads/2016/11/Atletico-Mineiro-escudo.png?fit=512%2C512&ssl=1",
+               "imagemEstadio": "https://www.lance.com.br/files/article_main/uploads/2021/04/01/606616a969104.jpeg"
           },
           {
                "id": 5,
@@ -53,7 +61,9 @@
                "cidade": "Florianópolis",	
                "estado": "SC",
                "estadio": "Ressacada",
-               "capacidade": 17800
+               "capacidade": 17800,
+               "logo": "https://logodetimes.com/times/avai/logo-avai-1536.png",
+               "imagemEstadio": "https://i.pinimg.com/originals/ba/51/f0/ba51f0c09cc7e9b079862f7fedb573b3.jpg"
           },
           {
                "id": 6,
@@ -61,7 +71,9 @@
                "cidade": "Rio de Janeiro",	
                "estado": "RJ",
                "estadio": "Nilton Santos",
-               "capacidade": 44661
+               "capacidade": 44661,
+               "logo": "data:image/png;base64,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",
+               "imagemEstadio": "https://www.estadios.net/wp-content/uploads/2019/02/estadio-nilton-santos-inicial.jpg"
           },
           {
                "id": 7,
@@ -69,7 +81,9 @@
                "cidade": "Fortaleza",	
                "estado": "CE",
                "estadio": "Arena Castelão",
-               "capacidade": 63903
+               "capacidade": 63903,
+               "logo": "https://static.cdnlogo.com/logos/f/54/fortaleza-ec.png",
+               "imagemEstadio": "https://imagens.ebc.com.br/0mtBcc2xWKDQsW88wDrTOCjt4kE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/arena_castelao_fortaleza.jpeg?itok=GkEAnpkX"
           },
           {
                "id": 8,
@@ -77,7 +91,9 @@
                "cidade": "São Paulo",	
                "estado": "SP",
                "estadio": "Neo Química Arena",
-               "capacidade": 47605
+               "capacidade": 47605,
+               "logo": "https://logodetimes.com/times/corinthians/logo-do-corinthians-1536.png",
+               "imagemEstadio": "https://s.yimg.com/os/creatr-uploaded-images/2020-09/1a4de560-ebfc-11ea-b3ff-9533039eb935"
           },
           {
                "id": 9,
@@ -85,7 +101,9 @@
                "cidade": "Curitiba",	
                "estado": "PR",
                "estadio": "Couto Pereira",
-               "capacidade": 40502
+               "capacidade": 40502,
+               "logo": "https://logodetimes.com/times/coritiba/logo-coritiba-2048.png",
+               "imagemEstadio": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ec/fa/df/00000723.jpg?w=1200&h=-1&s=1"
           },
           {
                "id": 10,
@@ -93,7 +111,9 @@
                "cidade": "Cuiabá",	
                "estado": "MT",
                "estadio": "Arena Pantanal",
-               "capacidade": 44097
+               "capacidade": 44097,
+               "logo": "data:image/png;base64,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",
+               "imagemEstadio": "https://www.rbsdirect.com.br/imagesrc/34592597.jpg?w=1200&h=630&a=c&version=1575255600"
           },
           {
                "id": 11,
@@ -101,7 +121,9 @@
                "cidade": "Rio de Janeiro",	
                "estado": "RJ",
                "estadio": "Maracanã",
-               "capacidade": 78838
+               "capacidade": 78838,
+               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0nSw08ZyRpORozlmVIolQiBS-iU3pVFmt5ZQNB2frBns9dxZv-kU-yNcmdyHS1H9FOE&usqp=CAU",
+               "imagemEstadio": "https://www.estadios.net/wp-content/uploads/2018/10/estadio-do-maracana-vista-aerea.jpg"
           },
           {
                "id": 12,
@@ -109,7 +131,9 @@
                "cidade": "Rio de Janeiro",	
                "estado": "RJ",
                "estadio": "Maracanã",
-               "capacidade": 78838
+               "capacidade": 78838,
+               "logo": "https://logodetimes.com/times/fluminense/logo-fluminense-2048.png",
+               "imagemEstadio": "https://www.estadios.net/wp-content/uploads/2018/10/estadio-do-maracana-vista-aerea.jpg"
           },
           {
                "id": 13,
@@ -117,7 +141,9 @@
                "cidade": "Fortaleza",	
                "estado": "CE",
                "estadio": "Arena Castelão",
-               "capacidade": 63903
+               "capacidade": 63903,
+               "logo": "https://img.vavel.com/fortaleza-ec-1587682915382.png",
+               "imagemEstadio": "http://www.granmarquise.com.br/wp-content/uploads/2018/06/castelao.jpg"
           },
           {
                "id": 14,
@@ -125,7 +151,9 @@
                "cidade": "Goiânia"	,	
                "estado": "GO",
                "estadio": "Serrinha",
-               "capacidade": 16500
+               "capacidade": 16500,
+               "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Goi%C3%A1sLogo21.png",
+               "imagemEstadio": "https://www.goiasec.com.br/wp-content/uploads/2019/02/ARENA-SERRINHA_Photo-14-scaled.jpg"
           },
           {
                "id": 15,
@@ -133,7 +161,9 @@
                "cidade": "Porto Alegre"	,	
                "estado": "RS",
                "estadio": "Beira-Rio",
-               "capacidade": 50842
+               "capacidade": 50842,
+               "logo": "https://logodetimes.com/times/internacional/logo-internacional-1536.png",
+               "imagemEstadio": "https://media-exp1.licdn.com/dms/image/C561BAQEg1_Zdbka-5w/company-background_10000/0/1569529267512?e=2147483647&v=beta&t=Ib4ypzxLE67ROWL_XvOzHCwiMHkFU7PfSFKMVMutHtE"
           },
           {
                "id": 16,
@@ -141,7 +171,9 @@
                "cidade": "Caxias do Sul",	
                "estado": "RS",
                "estadio": "Alfredo Jaconi",
-               "capacidade": 19924
+               "capacidade": 19924,
+               "logo": "https://logodownload.org/wp-content/uploads/2017/02/ec-juventude-logo-escudo.png",
+               "imagemEstadio": "https://storage.alboom.ninja/sites/11481/albuns/751288/dji_0302.jpg?t=1606877842"
           },
           {
                "id": 17,
@@ -149,7 +181,9 @@
                "cidade": "São Paulo",	
                "estado": "SP",
                "estadio": "Allianz Parque",
-               "capacidade": 43713
+               "capacidade": 43713,
+               "logo": "data:image/png;base64,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",
+               "imagemEstadio": "https://www.galeriadaarquitetura.com.br/Img/projeto/702x415/395/arena-palestra-italia4241.jpg"
           },
           {
                "id": 18,
@@ -157,7 +191,9 @@
                "cidade": "Bragança Paulista",	
                "estado": "SP",
                "estadio": "Nabi Abi Chedid",
-               "capacidade": 15010
+               "capacidade": 15010,
+               "logo": "https://logodetimes.com/times/red-bull-bragantino/logo-red-bull-bragantino-2048.png",
+               "imagemEstadio": "https://ecrie.com.br/sistema/conteudos/imagem/m_57_0_1_16112021171235.jpg"
           },
           {
                "id": 19,
@@ -165,7 +201,9 @@
                "cidade": "Santos",	
                "estado": "SP",
                "estadio": "Vila Belmiro",
-               "capacidade": 16068
+               "capacidade": 16068,
+               "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/LogoSantosFC.png",
+               "imagemEstadio": "https://www.verminososporfutebol.com.br/wp-content/uploads/2021/08/Vila-Belmiro.jpg"
           },
           {
                "id": 20,
@@ -173,7 +211,9 @@
                "cidade": "São Paulo",	
                "estado": "SP",
                "estadio": "Morumbi",
-               "capacidade": 72039
+               "capacidade": 72039,
+               "logo": "data:image/png;base64,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",
+               "imagemEstadio": "https://s2.glbimg.com/DwQCH0KpJm-HR5NDLahTb7sa15s=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/E/x/zOYpAlRYiZv8BZctiZAA/frame-00-27-13.498.jpg"
           }
      ]
 }    

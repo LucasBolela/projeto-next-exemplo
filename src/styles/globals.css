@@ -14,6 +14,8 @@
   --gray900: #121214;
   --secondary: #fe8cab;
   --primary: #8b96ff;
+  --dark-blue: #001959;
+  --green: #38ff00;
 }
 
 @media (max-width: 1080px) {
@@ -29,8 +31,8 @@
 }
 
 body {
-  background: var(--gray900);
-  color: var(--white);
+  background: var(--grey100);
+  color: var(--dark-blue);
 }
 
 body, input, textarea, select, button {
