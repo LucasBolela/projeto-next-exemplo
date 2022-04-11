@@ -1,7 +1,9 @@
 .container {
     height: 5rem;
     border-bottom: 1px solid var(--gray800);
+    background-color: var(--dark-blue);
 }
+
 .content {
     max-width: 1120px;
     height: 5rem;
@@ -9,7 +11,6 @@
     padding: 0 2rem;
     display: flex;
     align-items: center;
-    background-color: var(--dark-blue);
 
     img {
         height: 3.75rem;
