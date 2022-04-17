@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 15px;
+
+    .title {
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+    .titleBackground {
+        position: absolute;
+        font-size: 15rem;
+        text-transform: uppercase;
+        z-index: -99;
+        color: #ddd3;
+        overflow-wrap: anywhere;
+    }
+
+    p.titleDescription {
+        font-size: 20px;
+        font-weight: bold;
+        color: #001959aa;
+        padding-left: 5px;
+    }
+}
+
+.cart {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--gray100);
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+
+    .description {
+        width: 500px;
+        max-height: 100%;
+        overflow: hidden;
+
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-left: 3px;
+        }
+    }
+
+    &:hover {
+        background: #fff5;
+        box-shadow: 0px 10px 13px -7px #48484844, 5px 5px 15px 5px rgb(255 255 255);
+    }
+
+    @media all and (max-width: 700px) {
+        height: 100%;
+        gap: 50px;
+    }
+}
+
+.itens {
+    border-bottom: 1px solid #00f3;
+    box-shadow: 0px 5px 12px -7px #48484844, 5px 5px 15px 5px white;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+}

@@ -1,0 +1,115 @@
+{
+     "carrinhos": [
+          { 
+               "id": 1,
+               "titulo": "Carrinho de Alimento",
+               "descricao": "Lista preenchida com alimentos para compor suas refeições diárias.",
+               "data": "06-04-2022",
+               "valor": "250.00" 
+          },
+          { 
+               "id": 2, 
+               "titulo": "Carrinho de Bebidas",
+               "descricao": "Lista preenchida com bebidas cotidianas dando aquele toque especial para o almoço.",
+               "data": "07-04-2022",
+               "valor": "125.00" 
+          },
+          { 
+               "id": 3, 
+               "titulo": "Carrinho de Higiene pessoal",
+               "descricao": "Lista preenchida com itens para higiêne pessoal e limpeza cotidiana.",
+               "data": "08-04-2022",
+               "valor": "100.00" 
+          },
+          { 
+               "id": 4, 
+               "titulo": "Carrinho de Doces",
+               "descricao": "Lista preenchida com alimentos para desgustar como sobremesa, dando aquela adoçada no seu dia.",
+               "data": "09-04-2022",
+               "valor": "80.00" 
+          }
+     ],
+     
+     "itens": [     
+          { 
+               "id": 1, 
+               "produto": "Sabonete", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 2, 
+               "produto": "Macarrão", 
+               "carrinhoId": 1
+          },     
+          { 
+               "id": 3, 
+               "produto": "Shampoo", 
+               "carrinhoId": 3 
+          },     
+          { 
+               "id": 4, 
+               "produto": "Arroz", 
+               "carrinhoId": 1 
+          },     
+          { 
+               "id": 5, 
+               "produto": "Feijão", 
+               "carrinhoId": 1 
+          },     
+          { 
+               "id": 6, 
+               "produto": "Suplemento Alimentar", 
+               "carrinhoId": 1
+          },     
+          { 
+               "id": 7, 
+               "produto": "Coca-Cola", 
+               "carrinhoId": 2
+          },     
+          { 
+               "id": 8, 
+               "produto": "Guaraná Antartica", 
+               "carrinhoId": 2
+          },
+          { 
+               "id": 9, 
+               "produto": "Suco de Laranja", 
+               "carrinhoId": 2
+          },
+          { 
+               "id": 10, 
+               "produto": "Cerveja Skol", 
+               "carrinhoId": 2
+          },
+          { 
+               "id": 11, 
+               "produto": "Papel Higiênico", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 12, 
+               "produto": "Pasta de Dente", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 13, 
+               "produto": "Escova de Dente", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 14, 
+               "produto": "Bombom Sonho de Valsa", 
+               "carrinhoId": 4
+          },
+          { 
+               "id": 15, 
+               "produto": "Barra de Chocolate Suflair", 
+               "carrinhoId": 4
+          },
+          { 
+               "id": 16, 
+               "produto": "Bombom Ouro Branco", 
+               "carrinhoId": 4
+          }
+       ]
+}    

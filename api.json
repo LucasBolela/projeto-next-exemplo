@@ -215,5 +215,119 @@
                "logo": "data:image/png;base64,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",
                "imagemEstadio": "https://s2.glbimg.com/DwQCH0KpJm-HR5NDLahTb7sa15s=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/E/x/zOYpAlRYiZv8BZctiZAA/frame-00-27-13.498.jpg"
           }
-     ]
+     ],
+
+     "carrinhos": [
+          { 
+               "id": 1,
+               "titulo": "Carrinho de Alimento",
+               "descricao": "Lista preenchida com alimentos para compor suas refeições diárias.",
+               "data": "06-04-2022",
+               "valor": "250.00" 
+          },
+          { 
+               "id": 2, 
+               "titulo": "Carrinho de Bebidas",
+               "descricao": "Lista preenchida com bebidas cotidianas dando aquele toque especial para o almoço.",
+               "data": "07-04-2022",
+               "valor": "125.00" 
+          },
+          { 
+               "id": 3, 
+               "titulo": "Carrinho de Higiene pessoal",
+               "descricao": "Lista preenchida com itens para higiêne pessoal e limpeza cotidiana.",
+               "data": "08-04-2022",
+               "valor": "100.00" 
+          },
+          { 
+               "id": 4, 
+               "titulo": "Carrinho de Doces",
+               "descricao": "Lista preenchida com alimentos para desgustar como sobremesa, dando aquela adoçada no seu dia.",
+               "data": "09-04-2022",
+               "valor": "80.00" 
+          }
+     ],
+     
+     "itens": [     
+          { 
+               "id": 1, 
+               "produto": "Sabonete", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 2, 
+               "produto": "Macarrão", 
+               "carrinhoId": 1
+          },     
+          { 
+               "id": 3, 
+               "produto": "Shampoo", 
+               "carrinhoId": 3 
+          },     
+          { 
+               "id": 4, 
+               "produto": "Arroz", 
+               "carrinhoId": 1 
+          },     
+          { 
+               "id": 5, 
+               "produto": "Feijão", 
+               "carrinhoId": 1 
+          },     
+          { 
+               "id": 6, 
+               "produto": "Suplemento Alimentar", 
+               "carrinhoId": 1
+          },     
+          { 
+               "id": 7, 
+               "produto": "Coca-Cola", 
+               "carrinhoId": 2
+          },     
+          { 
+               "id": 8, 
+               "produto": "Guaraná Antartica", 
+               "carrinhoId": 2
+          },
+          { 
+               "id": 9, 
+               "produto": "Suco de Laranja", 
+               "carrinhoId": 2
+          },
+          { 
+               "id": 10, 
+               "produto": "Cerveja Skol", 
+               "carrinhoId": 2
+          },
+          { 
+               "id": 11, 
+               "produto": "Papel Higiênico", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 12, 
+               "produto": "Pasta de Dente", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 13, 
+               "produto": "Escova de Dente", 
+               "carrinhoId": 3
+          },
+          { 
+               "id": 14, 
+               "produto": "Bombom Sonho de Valsa", 
+               "carrinhoId": 4
+          },
+          { 
+               "id": 15, 
+               "produto": "Barra de Chocolate Suflair", 
+               "carrinhoId": 4
+          },
+          { 
+               "id": 16, 
+               "produto": "Bombom Ouro Branco", 
+               "carrinhoId": 4
+          }
+       ]
 }    

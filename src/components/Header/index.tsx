@@ -20,6 +20,9 @@ export function Header() {
                     <Link href="/times"> 
                         <a className={asPath == "/times"? style.active: ''}> Times do Brasileirão</a>
                     </Link>
+                    <Link href="/carrinhos"> 
+                        <a className={asPath == "/carrinhos"? style.active: ''}> Carrinho de compra</a>
+                    </Link>
                 </nav>
             </div>
         </header>
